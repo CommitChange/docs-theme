@@ -76,6 +76,7 @@ body {
   font-family: "Rubik";
   color: #444;
   box-sizing: border-box;
+  line-height: 1.5em;
 } 
 h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.4em;
