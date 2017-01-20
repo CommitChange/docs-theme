@@ -1,0 +1,54 @@
+$green: #b8d7b8; 
+$teal: #c9e3eb;
+$teal_darker: #85b7c6;
+$dark_grey: #444;
+$subtle_grey: #f8f8f8;
+
+body {
+  background: white;
+  font-size: 18px;
+  font-family: "Rubik";
+  color: $dark_grey;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 0.4em;
+  margin-bottom: 0.4em;
+  border-bottom: 1px solid $teal;
+}
+
+.codeSample {
+  display: block;
+  border: 1px solid $teal;
+  border-left: 4px solid $teal_darker;
+  background-color: $subtle_grey;
+  white-space: pre;
+  overflow-x: auto;
+  padding: 0 1em 0 1em;
+  font-family: "Inconsolata";
+  color: black;
+}
+
+.blockLabel {
+  position: relative;
+}
+.blockLabel:after {
+  content: attr(data-label);
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: $teal_darker;
+}
+
+code {
+  background-color: $subtle_grey;
+}
+p.protip {
+  border: 1px solid $teal;
+  border-left: 4px solid $green;
+  padding: 1em;
+  background-color: $subtle_grey;
+  position: relative;
+}
+

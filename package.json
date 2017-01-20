@@ -1,0 +1,37 @@
+{
+  "name": "ff-docs-theme",
+  "style": "build/index.css",
+  "version": "0.0.1",
+  "description": "This is a set of css (using postcss and basscss) that can be used for Flimflam documentation pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss -c postcss-config.js -l",
+    "watch": "postcss -w -c postcss-config.js -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flimflam-js/docs-theme.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "flimflam"
+  ],
+  "author": "jay r bolton <jayrbolton@gmail.com> (http://jayrbolton.com/)",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/flimflam-js/docs-theme/issues"
+  },
+  "homepage": "https://github.com/flimflam-js/docs-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "6.6.1",
+    "highlight.js": "9.9.0",
+    "normalize.css": "5.0.0",
+    "postcss": "5.2.10",
+    "postcss-cli": "2.6.0",
+    "postcss-color-function": "2.0.1",
+    "postcss-font-magician": "1.6.0",
+    "postcss-import": "9.1.0",
+    "precss": "1.4.0"
+  }
+}
